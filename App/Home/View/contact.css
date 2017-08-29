@@ -1,0 +1,30 @@
+/*用户名 使用 .supName*/
+/*留言内容 使用 .supContent*/
+/*留言时间 使用 .supTime*/
+
+.supName {
+    font-family: 微软雅黑;
+    font-size: 2.3rem;
+    display: inline-block;
+}
+
+.supName1 {
+    font-family: 微软雅黑;
+    font-size: 2.3rem;
+    text-indent: 1rem;
+    display: inline-block;
+}
+
+.supContent {
+    font-family: 微软雅黑;
+    font-size: 1.7rem;
+    color: lightslategray;
+
+}
+
+.supTime {
+    font-family: 微软雅黑;
+    font-size: 1.3rem;
+    color: lightslategray;
+
+}

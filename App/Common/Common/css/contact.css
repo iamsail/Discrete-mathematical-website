@@ -1,0 +1,94 @@
+/*用户名 使用 .supName*/
+/*留言内容 使用 .supContent*/
+/*留言时间 使用 .supTime*/
+
+.text_container{
+    /*background-color: deepskyblue;*/
+    margin: 0;
+}
+
+.big_border{
+    /*border:1px solid lightgray;*/
+}
+
+.left{
+    /*background-color: darkgrey;*/
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+
+
+
+.right{
+    background-color: #FAFBFC;
+    width: 83%;
+    display: inline-block;
+    border-left: 1px solid lightgray;
+    margin: 0;
+}
+
+
+
+.id{
+    background-color: yellow;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.supName {
+    font-family: 微软雅黑;
+    font-size: 2.3rem;
+    display: inline-block;
+    /*border:1px solid black;*/
+}
+
+.supName1 {
+    font-family: 微软雅黑;
+    font-size: 2.3rem;
+    text-indent: 1rem;
+    display: inline-block;
+    border-top:1px dotted goldenrod ;
+    width: 100%;
+}
+
+.supContent {
+    font-family: 微软雅黑;
+    font-size: 1.7rem;
+    color: lightslategray;
+    padding-left: 14%;
+}
+
+.sub_supContent{
+
+}
+
+.supTime {
+    font-family: 微软雅黑;
+    font-size: 1.3rem;
+    color: lightslategray;
+}
+
+.one_supTime{
+    float:right;
+}
+
+.tow_supTime{
+    float:right;
+}
+
+.num_pages{
+    font-size: 24px;
+    position:relative;
+    top: 50%;
+    left: 42%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+

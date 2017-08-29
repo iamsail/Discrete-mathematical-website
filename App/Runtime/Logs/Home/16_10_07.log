@@ -1,0 +1,21 @@
+[ 2016-10-07T00:42:21+08:00 ] ::1 /muke/Home/Index/www.baidu.com
+ERR: 非法操作:www.baidu.com
+
+[ 2016-10-07T13:25:41+08:00 ] ::1 /muke/Home/Index/regcheck
+ERR: 模板不存在:./App/Home/View//regcheck.html
+
+[ 2016-10-07T13:27:22+08:00 ] ::1 /muke/Home/Index/regcheck
+ERR: 模板不存在:./App/Home/View//regcheck.html
+
+[ 2016-10-07T14:09:49+08:00 ] ::1 /muke/Home/Index/regcheck
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `mk_usercopy` (`password`) VALUES ('1235678')
+
+[ 2016-10-07T14:11:23+08:00 ] ::1 /muke/Home/Index/regcheck
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `mk_usercopy` (`password`) VALUES ('987654321')
+
+[ 2016-10-07T14:13:14+08:00 ] ::1 /muke/Home/Index/regcheck
+ERR: 1062:Duplicate entry '' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `mk_usercopy` (`password`) VALUES ('0')
+
