@@ -1,0 +1,113 @@
+body {
+  background-color:darkgray;
+ /* background-image: url(bg.jpg); */
+    background-image: url(grunge_wall.png);
+
+  /*background-image: url(  {dede:global.cfg_cmspath/}/templets/lssx/images/bg.jpg);*/
+}
+
+
+/*		主体的css代码	*/
+
+.body0 
+{
+     width:1180px;
+    height:700px;
+    text-align:center;
+    margin:0px auto;
+
+}
+
+.oneleft 
+{
+    margin-left:0px;
+    width:240px;
+    height:700px;
+    background-color:pink;
+    float:left;
+	border-radius:10px;
+}
+
+    .oneleft ul li
+ {
+       list-style:none;
+       height:110px;
+       line-height:110px;
+       width:90px;
+       margin:0 40px 0 30px;
+      text-align:center; 
+ }
+
+   .oneleft ul li a 
+ {
+       font-size:27px;
+       font-family:"微软雅黑";
+       text-align:center;
+       width:120px;
+       display:block;
+      text-decoration:none;
+   }
+/*
+    .oneleft ul li a:active
+    {
+        color:purple;
+    }
+*/
+
+    .oneleft ul li a:hover 
+    {
+        color:white;
+        background-color:darkorange;
+    }
+/*
+    .oneleft ul li a:visited
+    {
+        color:white;
+    }
+
+*/
+.oneright
+{   
+    width:938px;
+    height:700px;
+    background-color:lightgoldenrodyellow;
+    float:right;
+	overflow:auto;
+	border-radius:10px;
+
+/*注意这里设置的overflow，后期修改代码，或者可能这儿有bug   */
+
+
+    overflow:hidden;
+}
+
+.oneright .top
+{
+	width: 938px;
+	height: 35px;
+	line-height: 35px;
+	background:#F5F5F5;
+	border-bottom:1px solid #F5F5F5;
+	text-align: left;
+
+}
+
+.oneright .bottom
+{
+    border:1px solid burlywood;
+    height: 450px;
+    width: 60%;
+    background-color: #fff;
+    margin:30px auto;
+    padding-top: 110px;
+    font-size:30px;
+    font-family: 华文细黑;
+
+}
+
+.oneright a
+{
+	text-decoration:none;
+	padding:0 0 0 10px;
+
+}

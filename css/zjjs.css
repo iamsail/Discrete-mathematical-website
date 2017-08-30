@@ -1,0 +1,104 @@
+.bottom
+{
+
+}
+
+.bottom .left
+{
+	padding-top: 70px;
+	height: 592px;
+	line-height:70px;
+	width: 14%;
+	float:left;
+	font-family:"微软雅黑";
+	font-size:20px;
+	text-align: left;
+	border-right:1px solid red;
+}
+
+.bottom .left ul
+{
+	padding-left: 14px;
+	text-align: left;
+	font-size:38px;
+	font-family: 华文行楷;
+}
+
+.bottom .left li
+{
+	width:70px;
+	font-size:20px;
+	font-family: 微软雅黑;
+	list-style: none;
+	display: none;
+
+	text-align: center;
+}
+
+.bottom .left ul:hover li
+{
+	display: block;
+}
+
+.bottom .left a
+{
+	text-decoration: none;
+}
+
+
+.bottom .right
+{
+	margin-left: 132px;
+	height: 662px;
+	width: 804px;
+	border:1px solid black;
+
+}
+
+.bottom .right .box
+{
+
+	height: 658px;
+	width: 800px;
+	border:1px dashed #1b91ff;
+
+}
+
+.bottom .right .box .img
+{
+	display: inline;
+	float:left;
+	padding-left: 50px;
+}
+/*
+
+.bottom .right
+{
+	
+	height: 664px;
+	width:85%;
+	float:right;
+	background-color: #fff;
+	border-left:1px dashed red;
+}
+
+.bottom .right .box
+{
+	margin: 50px auto;
+	height: 400px;
+	width: 500px;
+	border:2px solid black;
+	border-radius:10px;
+	font-family: "微软雅黑 Light";
+	line-height: 24px;
+
+}
+
+.bottom	.right .line
+{
+	text-decoration: underline;
+	background-color:#fff;
+	color:#9c9c9c;
+
+}
+*/

@@ -1,0 +1,55 @@
+*
+{
+	margin:0px;
+}
+
+.container6
+{	
+	background-color: #474747;		height: 150px;		margin: 0px auto;
+}
+
+
+.container6 img
+{
+	float:left;
+	padding-left:180px;
+}
+
+ .container6 .sail
+{
+	<!--display:inline;-->
+ <!--line-height:150px;-->
+ <!--margin:0 auto;-->
+ <!--padding-left:100px;-->
+    text-align:center;
+		float:left;
+	 font-family: 华文行楷;
+	 color:white;
+	 position: absolute;
+	 left:450px;
+	 top:35px;
+	 font-size:64px;
+	 white-space:nowrap;
+
+}
+
+.container6 .log
+{
+	color: #FFFFFF;
+	width:80px;
+	height:25px;
+	float:right;
+	<!--padding-top:20px;-->
+	<!--margin-right: 55px;-->
+	font-family: "微软雅黑 Light";
+	position: absolute;
+	right:120px;
+	top:12px;
+	white-space:nowrap;
+}
+
+.container6 .log a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}

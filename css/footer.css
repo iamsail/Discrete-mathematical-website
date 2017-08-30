@@ -1,0 +1,64 @@
+
+*
+{
+    margin:0px;
+}
+
+.container1
+{
+    background-color: #474747;		height: 150px;		margin: 0px auto;
+}
+
+
+.container1 img
+{
+    float:left;
+    padding-left:490px;
+    border-right:5px solid salmon;
+}
+
+.container1 .sail1
+{
+
+    display:inline;
+    font-size:20px;
+    font-family:'Adobe Hebrew';
+    text-align:center;
+    line-height:135px;
+    margin:0 auto;
+    color: #FFFFFF;
+    float:left;
+    padding-left:15px;
+    font-family: 微软雅黑;
+    position: absolute;
+    white-space:nowrap;
+}
+/*
+.container1 .sail1 .link
+{
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+}
+*/
+
+
+
+.container1  a
+{
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+
+
+
+}
+
+
+.container1  a:hover
+{
+
+
+}
+
+
